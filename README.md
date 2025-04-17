@@ -4,7 +4,11 @@
 ![PowerShell](https://img.shields.io/badge/Tool-PowerShell-blue?style=flat-square&logo=powershell)
 ![SOC](https://img.shields.io/badge/Role-SOC%20Analyst-critical?style=flat-square&logo=security)
 ![Lab Status](https://img.shields.io/badge/Lab%20Status-Complete-success?style=flat-square)
-
+![Stars](https://img.shields.io/github/stars/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
+![Forks](https://img.shields.io/github/forks/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
+![License](https://img.shields.io/github/license/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
 
 ## 🎯 Objective
 Introduce the basics of incident response and simulate common incidents on Windows using built-in tools.

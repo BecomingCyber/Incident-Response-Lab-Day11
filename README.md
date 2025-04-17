@@ -8,7 +8,7 @@
 ![Forks](https://img.shields.io/github/forks/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
 ![Repo Size](https://img.shields.io/github/repo-size/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
-![License](https://img.shields.io/github/license/BecomingCyber/Incident-Response-Lab-Day11?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🎯 Objective
 Introduce the basics of incident response and simulate common incidents on Windows using built-in tools.

